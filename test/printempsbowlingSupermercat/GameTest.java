@@ -11,5 +11,12 @@ public class GameTest {
         Game game = new Game();
         assertEquals("1", game.next());
     }
+    
+    @Test
+    void secondTest() {
+        Game game = new Game();
+        game.next();
+        assertEquals("2", game.next());
+    }
 }
 
